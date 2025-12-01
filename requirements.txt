@@ -1,0 +1,7 @@
+numpy
+pandas
+click
+Pillow
+scikit-image
+torch
+torchvision
