@@ -1,6 +1,6 @@
-# Active Measurement: Efficient Estimation at Scale 📏- NeurIPS 2025
+# Active Measurement: Efficient Estimation at Scale📏
 
-This repository contains the official implementation of **Active Measurement**, along with example datasets to reproduce the results from our NeurIPS paper:
+This repository contains the official implementation of **Active Measurement**, along with example datasets to reproduce the results from our NeurIPS 2025 paper:
 [Active Measurement: Efficient Estimation at Scale](https://arxiv.org/abs/2507.01372)
 
 
@@ -138,7 +138,7 @@ python -m run.run_pipeline --path /path/to/your/data --swor --var_weighting LURE
 ## 💻 Hardware Notes
 
 - CPU is sufficient for reproducing the paper’s results
-- GPU will be used automatically (if available) for end-to-end training
+- GPU should be used for end-to-end training
 
 
 
@@ -147,13 +147,11 @@ python -m run.run_pipeline --path /path/to/your/data --swor --var_weighting LURE
 If you use this work, please cite:
 
 ```bibtex
-@misc{hamilton2025activemeasurementefficientestimation,
-  title        = {Active Measurement: Efficient Estimation at Scale},
-  author       = {Max Hamilton and Jinlin Lai and Wenlong Zhao and Subhransu Maji and Daniel Sheldon},
-  year         = {2025},
-  eprint       = {2507.01372},
-  archivePrefix= {arXiv},
-  primaryClass = {cs.CV},
-  url          = {https://arxiv.org/abs/2507.01372}
+@inproceedings{hamilton2025active,
+   title={Active Measurement: Efficient Estimation at Scale},
+   author={Max Hamilton and Jinlin Lai and Wenlong Zhao and Subhransu Maji and Daniel Sheldon},
+   booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+   year={2025},
+   url={https://openreview.net/forum?id=nFc38gSYze}
 }
 ```
