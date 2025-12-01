@@ -1,0 +1,283 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+  <title>Active Measurement</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<meta property="og:title" content="Active Measurement" />
+
+<script type="text/javascript">
+// redefining default features
+var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,status=1';
+</script>
+<style type="text/css" media="all">
+IMG {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	FLOAT: right;
+	PADDING-BOTTOM: 0px;
+	PADDING-TOP: 0px
+}
+#primarycontent {
+	MARGIN-LEFT: auto; ; WIDTH: expression(document.body.clientWidth >
+1000? "1000px": "auto" ); MARGIN-RIGHT: auto; TEXT-ALIGN: left; max-width:
+1000px }
+BODY {
+	TEXT-ALIGN: center
+}
+</style>
+
+<style type="text/css">
+  body {
+    font-family: "Titillium Web","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight:300;
+    font-size:18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    width: 100%;
+  }
+
+  h1 {
+    font-weight:300;
+  }
+
+  div {
+    max-width: 95%;
+    margin:auto;
+    padding: 10px;
+  }
+
+  .table-like {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .disclaimerbox {
+    background-color: #eee;
+    border: 1px solid #eeeeee;
+    border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    padding: 20px;
+  }
+
+  video.header-vid {
+    height: 140px;
+    border: 1px solid black;
+    border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+  }
+
+  img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  iframe {
+    max-width: 100%;
+  }
+
+  img.header-img {
+    height: 140px;
+    border: 1px solid black;
+    border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+  }
+
+  img.rounded {
+    border: 1px solid #eeeeee;
+    border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+  }
+
+  a:link,a:visited
+  {
+    color: #1367a7;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #208799;
+  }
+
+  td.dl-link {
+    height: 160px;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .layered-paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+    box-shadow:
+            0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+            5px 5px 0 0px #fff, /* The second layer */
+            5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+            10px 10px 0 0px #fff, /* The third layer */
+            10px 10px 1px 1px rgba(0,0,0,0.35), /* The third layer shadow */
+            15px 15px 0 0px #fff, /* The fourth layer */
+            15px 15px 1px 1px rgba(0,0,0,0.35), /* The fourth layer shadow */
+            20px 20px 0 0px #fff, /* The fifth layer */
+            20px 20px 1px 1px rgba(0,0,0,0.35), /* The fifth layer shadow */
+            25px 25px 0 0px #fff, /* The fifth layer */
+            25px 25px 1px 1px rgba(0,0,0,0.35); /* The fifth layer shadow */
+    margin-left: 10px;
+    margin-right: 45px;
+  }
+
+
+  .layered-paper { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+    box-shadow:
+            0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+            5px 5px 0 0px #fff, /* The second layer */
+            5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+            10px 10px 0 0px #fff, /* The third layer */
+            10px 10px 1px 1px rgba(0,0,0,0.35); /* The third layer shadow */
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-bottom: 5px;
+  }
+
+  .vert-cent {
+    position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+
+  hr
+  {
+    border: 0;
+    height: 1px;
+    max-width: 1100px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  }
+
+  #authors td {
+    padding-bottom:5px;
+    padding-top:30px;
+  }
+
+  .code-block{
+    font-size:14px; 
+    text-align: left;
+    max-width:700px;
+    overflow-x: scroll;
+    background-color:azure;
+    border-color: rgb(192, 192, 192);
+    border-width: 2px;
+    border-radius: 10px;
+    border-style:solid;
+  }
+  .text-block{
+    font-size:16px; 
+    text-align: justify;
+    max-width:750px
+  }
+</style>
+
+<script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+  }
+</script>
+
+<body>
+
+<div id="primarycontent">
+    <center><h1 style="font-size: 225%">Active Measurement: Efficient Estimation at Scale</h1></center>
+
+    <!-- Authors section -->
+    
+    <!-- First row: 3 authors -->
+    <div style="display:flex; justify-content:center; max-width:800px; margin:auto; margin-bottom:10px;">
+      <div style="width:30%; text-align:center; margin:0 10px;">
+        <a href="https://johnmaxh.github.io/" target="_blank" style="font-size: larger">Max Hamilton*</a><br>
+        UMass Amherst
+      </div>
+      <div style="width:30%; text-align:center; margin:0 10px;">
+        <a href="https://lll6924.github.io/" target="_blank" style="font-size: larger">Jinlin Lai*</a><br>
+        UMass Amherst
+      </div>
+      <div style="width:30%; text-align:center; margin:0 10px;">
+        <a href="https://wenlongzhao094.github.io/" target="_blank" style="font-size: larger">Wenlong Zhao</a><br>
+        UMass Amherst
+      </div>
+    </div>
+    
+    <!-- Second row: 2 authors -->
+    <div style="display:flex; justify-content:center; max-width:800px; margin:auto; margin-bottom:5px;">
+      <div style="width:40%; text-align:center; margin:0 10px;">
+        <a href="https://people.cs.umass.edu/~smaji/" target="_blank" style="font-size: larger">Subhransu Maji<sup>&#8224;</sup></a><br>
+        UMass Amherst
+      </div>
+      <div style="width:40%; text-align:center; margin:0 10px;">
+        <a href="https://people.cs.umass.edu/~sheldon/" target="_blank" style="font-size: larger">Daniel Sheldon<sup>&#8224;</sup></a><br>
+        UMass Amherst
+      </div>
+    </div>
+    
+    <div style="text-align:center; font-size:smaller; margin-bottom:10px;">
+      *<sup>&#8224;</sup> denotes equal contribution
+    </div>
+    
+  <!-- Second row --->
+
+
+<div class="table-like" style="justify-content:space-evenly;max-width:900px;margin:auto;">
+  <center>
+    <table>
+      <tr>
+        <td style="font-size:20px;margin:20px;font-family:monospace">
+          <a style="margin:2px" href="https://openreview.net/forum?id=nFc38gSYze">[Paper]</a>
+        </td> 
+        <td style="font-size:20px;margin:20px;font-family:monospace">
+          <a style="margin:2px" href="https://github.com/cvl-umass/active-measurement/">[Code]</a>
+        </td>
+      </tr>
+    </table>
+  </center>
+</div>
+<center>
+<br>
+
+
+<center>
+    <table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="center" valign="bottom" style="max-width:800px">
+            <img class="result" src="data/figures/figure.png" style="width: 100%">
+        </td>
+      </tr>
+    </table>
+</center>
+
+<h2>Abstract</h2>
+<div style="font-size:16px; text-align: justify;max-width:700px">
+<p>
+    AI has the potential to transform scientific discovery by analyzing vast datasets with little human effort. However, current workflows often do not provide the accuracy or statistical guarantees that are needed. We introduce active measurement, a human-in-the-loop AI framework for scientific measurement. An AI model is used to predict measurements for individual units, which are then sampled for human labeling using importance sampling. With each new set of human labels, the AI model is improved and an unbiased Monte Carlo estimate of the total measurement is refined. Active measurement can provide precise estimates even with an imperfect AI model, and requires little human effort when the AI model is very accurate. We derive novel estimators, weighting schemes, and confidence intervals, and show that active measurement reduces estimation error compared to alternatives in several measurement tasks. 
+</p>
+</div>
+
+<h2>Citation</h2>
+<pre style="font-size:14px; text-align: left;max-width:700px;overflow-x: scroll;background-color:beige;border-color: rgb(192, 192, 192);border-width: 2px;border-radius: 10px;border-style:solid;">
+    <code>
+    @inproceedings{hamilton2025active,
+        title={Active Measurement: Efficient Estimation at Scale},
+        author={Max Hamilton and Jinlin Lai and Wenlong Zhao and Subhransu Maji and Daniel Sheldon},
+        booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+        year={2025},
+        url={https://openreview.net/forum?id=nFc38gSYze}
+    }
+    </code>
+</pre>
+
+
+</body>
+
+</html>
